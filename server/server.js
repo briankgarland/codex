@@ -6,7 +6,8 @@ import axios from 'axios';
 dotenv.config();
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
-const GPT_4_API_ENDPOINT = 'https://api.openai.com/v1/engines/gpt-4/completions';
+// const GPT_4_API_ENDPOINT = 'https://api.openai.com/v1/engines/gpt-4/completions';
+const GPT_4_API_ENDPOINT = 'https://codex-idhx.onrender.com';
 
 const app = express();
 app.use(cors());
